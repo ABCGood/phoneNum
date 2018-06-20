@@ -1,0 +1,258 @@
+body{
+    margin: 0 auto;
+    background-color: #efefef;
+    line-height: 20px;
+}
+*{
+    padding:0;
+    margin:0;
+}
+
+.titles{
+    width: 100%;
+    background-color: #0a9ffe;
+    height: 50px;
+    text-align: center;
+}
+.titles p{
+    line-height: 50px;
+    font-size: 16px;
+    color: white;
+}
+
+/*超出3行显示省略号*/
+.over3{
+    text-decoration: none;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient: vertical;
+}
+/*超出2行显示省略号*/
+.over2{
+    text-decoration: none;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient: vertical;
+}
+/*超出1行显示省略号*/
+.over1{
+    text-decoration: none;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:1;
+    -webkit-box-orient: vertical;
+}
+
+
+/* 顶部 */
+.topContent{
+    width: 100%;
+    height: 200px;
+    background-color: #0a9ffe;
+}
+.topTitleContent{
+    padding: 10px;
+}
+.topTitleContent span{
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+}
+.topIconContents{
+    margin: 0 10px;
+}
+.topIconContents .iconContent{
+    min-width: 33.3%;
+    /*width: 55px;*/
+    height: 70px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    /*background-color: #0C0C0C;*/
+}
+.topIconContents .iconContent img{
+    width: 40px;
+    height: 40px;
+}
+.topIconContents .iconContent p{
+    margin-top: 5px;
+}
+
+.centerContent{
+    margin-top: 10px;
+    height: 150px;
+    width: 100%;
+    background-color: white;
+}
+.centerContent .centerIconContent{
+    margin: 10px;
+    padding-top: 10px;
+}
+.centerContent .centerIconCons{
+    text-align: center;
+    width: 25%;
+    height: 70px;
+    /*background-color: #0C0C0C;*/
+}
+/*style="width: 25px;height: 25px;margin-top: 8px"*/
+.centerIconCons img{
+    margin-bottom: 5px;
+    width: 40px;
+    height: 40px;
+}
+.centerIconCons p{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.taskContent , .toPromoteContent{
+    margin-top: 10px;
+    /*width: 100%;*/
+    height: 135px;
+    background-color: white;
+    padding: 10px;
+    /*display: -webkit-flex; !* Safari *!*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: flex-start;*/
+    /*align-items: center;*/
+    /*align-content: flex-start;*/
+}
+.taskTitleContent p, .toPromoteTitleContent p{
+    margin-left: 10px;
+    background-color: #0a9ffe;
+    width: 5px;
+    height: 20px;
+    border-radius: 2px;
+}
+.taskTitleContent span , .toPromoteContent span{
+    margin-left: 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.taskContentCons{
+    margin-top: 30px;
+    border: 1px solid #0a9ffe;
+    border-radius: 5px;
+    height: 90px;
+    width: 100%;
+}
+.taskContentConsTitle{
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 20px;
+    font-size: 14px;
+}
+.taskContentCons img{
+    position: absolute;
+    width: 15px;
+    margin-left: 2px;
+    /*top: 0;*/
+}
+.taskContentConsBottom p{
+    height: 30px;
+    /*width: 50%;*/
+    margin-top: 10px;
+    text-align: center;
+    border-top: 1px solid #0a9ffe;
+    font-size: 14px;
+    line-height: 30px;
+    color: #0a9ffe;
+    /*background-color: #0a9ffe;*/
+}
+
+.toPromoteContent{
+    height: 185px;
+}
+.toPromoteTitleContent p{
+    position: absolute;
+}
+.toPromoteTitleContent span{
+    margin-left: 20px;
+}
+
+.swiperIcons{
+    margin-top: 10px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    /*background-color: #0a9ffe;*/
+}
+.swiperIcons img{
+    width: 40px;
+    height: 40px;
+}
+.swiperIcons p{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.listContents{
+    padding: 10px;
+}
+.listContents img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    position: absolute;
+}
+.listContentsLi{
+    margin-top: 6px;
+    padding-left: 65px;
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+.listContentsLi span{
+    float: right;
+    color: #666666;
+}
+.perTaskContentConsTitle{
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.perListContent{
+    margin-top: 10px;
+    /*width: 100%;*/
+    padding: 0 10px;
+    background-color: white;
+}
+.perListContentLi{
+    font-size: 14px;
+    line-height: 20px;
+    padding: 8px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.manageIcons{
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.borderImg{
+    /*background-color: #0a9ffe;*/
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.borderImg img{
+    width: 25px;
+    height: 25px;
+    margin-top: 8px;
+}
